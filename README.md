@@ -32,7 +32,6 @@ RStudio
 ### Linear Regression to Predict MPG
 
 
-
 ![](Pics/Linear%20Regression.png)
 
 #### Summary
@@ -48,21 +47,60 @@ RStudio
 
 ![](Pics/Total%20Summary.png)
 
+
+•	Specificiations for the MechaCar dictate the suspension coils can not exceed 100. The Variance on the summary of all lots is 62 PSI and that is within the limits
+
+
 ![](Pics/Lot%20Summary.png)
 
+
+•	Lot 1 (Variance = 1) and Lot 2 (Variance = 7.5) are within the the limit. However Lot 3 (Variance 170) exceeds the PSI limit of 100
 
 
 ![](Pics/Box%20Plot.png)
 
 ### T-Test on Coils
 
+
 ![](Pics/Sample%20T-Test.png)
 
+
+•	P-Value = 
 
 ![](Pics/T%20Test%20Lots.png)
 
 
+•	Lot 1 (P-Value = 1) is above the significance level of 0.05. Do not have enogh evidence to reject the null hypothesis
+
+•	Lot 2 (P-Value = 0.60) is above the significance level of 0.05. Do not have enogh evidence to reject the null hypothesis
+
+•	Lot 3 (P-Value = 0.04) is below the significance level of 0.05. Do have enogh evidence to reject the null hypothesis
+
 ## Study Design:
+
+Since this is a new protoype we would want to see which cars/manufacturers it could be compared against to better determine what price to sell the car at.
+
+We would need to collect data from other cars released tha year
+
+•	Current Price (Selling)
+
+•	Drive Package
+
+•	Engine Type
+
+•	MPG 
+
+Hypothesis: Null and Alternative
+
+After determining which factors are key for the MechaCar's genre:
+
+•	Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
+
+•	Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
+Statistical Tests
+
+Multiple Linear regression testing could be done to analyze the data
 
 
 

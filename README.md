@@ -31,10 +31,25 @@ RStudio
 
 ### Linear Regression to Predict MPG
 
+![](Pics/Linear%20Regression.png)
+
 ### Summary Statistics
 
+![](Pics/Total%20Summary.png)
+
+![](Pics/Lot%20Summary.png)
+
+
+
+![](Pics/Box%20Plot.png)
 
 ### T-Test on Coils
+
+![](Pics/Sample%20T-Test.png)
+
+
+![](Pics/T%20Test%20Lots.png)
+
 
 ## Study Design:
 

@@ -31,9 +31,20 @@ RStudio
 
 ### Linear Regression to Predict MPG
 
+
+
 ![](Pics/Linear%20Regression.png)
 
-### Summary Statistics
+#### Summary
+
+•	According the summary results, vehicle length, ground clearence are statistically unlikely to provide randomn results of variance to the linear model. 
+
+•	The p-value is much smaller then the significance level of 0.05 (p-Value = 5.35e-11). There is sufficient evidence that the slope of the linear model is not 0.
+
+•	With an R-squared of 0.71 there is good chance that this linear model is effective at predicting mpg. There is a 71% chance that the mpg is explained using this model.
+
+
+## Summary Statistics on Suspension Coils
 
 ![](Pics/Total%20Summary.png)
 
